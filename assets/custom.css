@@ -1,0 +1,227 @@
+/* ============================================================
+   BoxedUp GitBook theme — dark-first, AMOLED-pure-black
+   Brand accent: #BE8AFF (lavender) | Gradient: #A052FF → #4E2DD2
+   Inspired by BoxedUp Command Center & BoxedUp Labs
+   ============================================================ */
+
+:root {
+  --bu-bg-0: #000000;        /* AMOLED true black */
+  --bu-bg-1: #0a0a0c;        /* one-shade-up panel */
+  --bu-bg-2: #131318;        /* card surface */
+  --bu-bg-3: #1c1c24;        /* hover surface */
+  --bu-border: #25252e;
+  --bu-border-strong: #34343f;
+
+  --bu-text-0: #ffffff;
+  --bu-text-1: #e6e6ea;
+  --bu-text-2: #a8a8b3;
+  --bu-text-3: #6f6f7a;
+
+  --bu-accent: #BE8AFF;
+  --bu-accent-soft: rgba(190, 138, 255, 0.16);
+  --bu-accent-line: rgba(190, 138, 255, 0.34);
+  --bu-gradient: linear-gradient(136deg, #A052FF 0%, #4E2DD2 100%);
+
+  --bu-success: #5BD0A2;
+  --bu-warning: #FFC857;
+  --bu-danger:  #FF6B6B;
+
+  --bu-radius-sm: 6px;
+  --bu-radius:    10px;
+  --bu-radius-lg: 14px;
+
+  --bu-font-sans: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --bu-font-mono: "JetBrains Mono", "Fira Code", "SF Mono", Consolas, monospace;
+}
+
+/* ---------- Global surface ---------- */
+html, body, .dark, [data-theme="dark"] {
+  background: var(--bu-bg-0) !important;
+  color: var(--bu-text-1) !important;
+  font-family: var(--bu-font-sans);
+  font-feature-settings: "ss01", "cv01", "cv11";
+}
+
+/* ---------- Sidebar ---------- */
+nav[aria-label="Table of contents"],
+aside,
+.sidebar {
+  background: var(--bu-bg-1) !important;
+  border-right: 1px solid var(--bu-border) !important;
+}
+
+aside a, nav a {
+  color: var(--bu-text-2) !important;
+  border-radius: var(--bu-radius-sm);
+  transition: background 120ms ease, color 120ms ease;
+}
+aside a:hover, nav a:hover {
+  color: var(--bu-text-0) !important;
+  background: var(--bu-bg-3) !important;
+}
+aside a[aria-current="page"], nav a[aria-current="page"] {
+  color: var(--bu-accent) !important;
+  background: var(--bu-accent-soft) !important;
+  border-left: 2px solid var(--bu-accent);
+}
+
+/* ---------- Headings ---------- */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--bu-text-0) !important;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+h1 {
+  font-size: 2.25rem;
+  background: var(--bu-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+h2 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid var(--bu-border);
+  padding-bottom: 0.4em;
+  margin-top: 2.25em;
+}
+h3 { font-size: 1.2rem; color: var(--bu-accent) !important; }
+
+/* ---------- Body text ---------- */
+p, li {
+  color: var(--bu-text-1) !important;
+  line-height: 1.7;
+}
+
+a {
+  color: var(--bu-accent) !important;
+  text-decoration: none;
+  border-bottom: 1px solid var(--bu-accent-line);
+  transition: border-color 120ms ease;
+}
+a:hover { border-bottom-color: var(--bu-accent); }
+
+/* ---------- Code ---------- */
+code {
+  font-family: var(--bu-font-mono);
+  background: var(--bu-bg-2) !important;
+  color: var(--bu-accent) !important;
+  border: 1px solid var(--bu-border);
+  border-radius: var(--bu-radius-sm);
+  padding: 0.1em 0.4em;
+  font-size: 0.9em;
+}
+pre, pre code {
+  background: var(--bu-bg-1) !important;
+  border: 1px solid var(--bu-border);
+  border-radius: var(--bu-radius);
+  color: var(--bu-text-1) !important;
+  padding: 1em 1.2em;
+  font-feature-settings: "calt" 1;
+}
+
+/* ---------- Tables ---------- */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--bu-border);
+  border-radius: var(--bu-radius);
+  overflow: hidden;
+  background: var(--bu-bg-1);
+}
+th {
+  background: var(--bu-bg-2) !important;
+  color: var(--bu-text-0) !important;
+  font-weight: 600;
+  text-align: left;
+  border-bottom: 1px solid var(--bu-border-strong) !important;
+}
+td {
+  border-bottom: 1px solid var(--bu-border) !important;
+  color: var(--bu-text-1);
+}
+tr:last-child td { border-bottom: none !important; }
+tr:hover td { background: var(--bu-bg-3) !important; }
+
+/* ---------- Callouts / blockquotes ---------- */
+blockquote {
+  background: var(--bu-bg-1);
+  border-left: 3px solid var(--bu-accent);
+  border-radius: var(--bu-radius-sm);
+  padding: 1em 1.2em;
+  color: var(--bu-text-1) !important;
+  margin: 1.5em 0;
+}
+
+/* GitBook hint blocks */
+.hint, [class*="callout"] {
+  background: var(--bu-bg-1) !important;
+  border: 1px solid var(--bu-border) !important;
+  border-left: 3px solid var(--bu-accent) !important;
+  border-radius: var(--bu-radius);
+  color: var(--bu-text-1) !important;
+}
+.hint-warning   { border-left-color: var(--bu-warning) !important; }
+.hint-danger    { border-left-color: var(--bu-danger) !important; }
+.hint-success   { border-left-color: var(--bu-success) !important; }
+
+/* ---------- Buttons / pills ---------- */
+button, .btn {
+  background: var(--bu-bg-2);
+  color: var(--bu-text-0);
+  border: 1px solid var(--bu-border-strong);
+  border-radius: var(--bu-radius-sm);
+  padding: 0.5em 1em;
+  cursor: pointer;
+  transition: all 120ms ease;
+}
+button:hover, .btn:hover {
+  background: var(--bu-accent-soft);
+  border-color: var(--bu-accent);
+  color: var(--bu-accent);
+}
+.btn-primary {
+  background: var(--bu-gradient);
+  border: none;
+  color: white;
+}
+
+/* ---------- Search ---------- */
+input[type="search"], input[type="text"] {
+  background: var(--bu-bg-2) !important;
+  border: 1px solid var(--bu-border) !important;
+  color: var(--bu-text-1) !important;
+  border-radius: var(--bu-radius-sm);
+}
+input[type="search"]:focus {
+  border-color: var(--bu-accent) !important;
+  box-shadow: 0 0 0 3px var(--bu-accent-soft);
+  outline: none;
+}
+
+/* ---------- Header / top bar ---------- */
+header {
+  background: var(--bu-bg-0) !important;
+  border-bottom: 1px solid var(--bu-border) !important;
+  backdrop-filter: blur(12px);
+}
+
+/* ---------- Selection ---------- */
+::selection {
+  background: var(--bu-accent-soft);
+  color: var(--bu-text-0);
+}
+
+/* ---------- Scrollbar ---------- */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--bu-bg-0); }
+::-webkit-scrollbar-thumb {
+  background: var(--bu-border-strong);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover { background: var(--bu-accent); }
+
+/* ---------- Cover image ---------- */
+.cover-img, [class*="cover"] img {
+  border-radius: var(--bu-radius-lg);
+  box-shadow: 0 12px 40px rgba(160, 82, 255, 0.18);
+}
