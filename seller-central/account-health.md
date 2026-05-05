@@ -272,13 +272,8 @@ Settings → Notification preferences → Account Health alerts.
 - Real-time defect notifications
 - Recommended for everyone
 
-### Sellerise / Helium 10 / similar (paid)
-Third-party dashboards that:
-- Aggregate data across multiple Amazon accounts
-- Send alerts via Discord/Slack/email
-- Track trends visually
-
-Worth it for sellers with 3+ accounts or running at high volume.
+### SellerBoard alerting
+SellerBoard already pulls Account Health metrics. Configure alerts in the dashboard for ODR + IP-claim notifications via Discord/Slack/email — no extra tooling needed.
 
 ## Recovery from a bad period
 

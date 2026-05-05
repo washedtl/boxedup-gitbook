@@ -66,7 +66,6 @@ Compare rates before each purchase — they fluctuate.
 
 ### Step 3: Coupon codes
 - **Honey** browser extension — auto-applies known codes at checkout
-- **Capital One Shopping** — similar
 - **Slickdeals** — manual search for niche codes
 - Add to portal + card stack for 15%+ effective discount on some retailers
 

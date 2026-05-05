@@ -54,7 +54,7 @@ Times below are guidelines — adjust to your schedule. The structure is what ma
 
 | Block | Activity |
 |---|---|
-| 0:00–0:30 | Reimbursement claim review (SellerBoard / Refunds Manager) |
+| 0:00–0:30 | Reimbursement claim review (SellerBoard) |
 | 0:30–0:45 | Pricing audit — check your top 20 SKUs for tank risk |
 | 0:45–1:00 | Update bookkeeping; reconcile bank vs Amazon deposit |
 

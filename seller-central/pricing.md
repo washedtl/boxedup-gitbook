@@ -86,19 +86,14 @@ Some replens you've optimized for — don't let the repricer touch them.
 
 When you're trying to build review velocity, don't muddy the waters with price changes.
 
-## Repricer tools comparison
+## Repricer options
 
-| Tool | Cost | Best for |
+| Type | Cost | Best for |
 |---|---|---|
-| **Aura** | \$97+/mo | Solo sellers, cheap, reliable |
-| **RepricerExpress** | \$55+/mo | Small to medium operations |
-| **BQool** | \$25+/mo | Budget-conscious sellers |
-| **Informed.co** | \$120+/mo | Mid-size sellers, AI features |
-| **Seller Snap** | \$300+/mo | Large operations, advanced rules |
-| **Channel Multi-Lister** | \$75+/mo | Multi-marketplace sellers |
-| **Native Amazon Repricer** | Free | Beginners, basic only |
+| **Native Amazon Repricer** | Free | Beginners, basic rules, no fees |
+| **Third-party SaaS repricer** | \$25–\$300/mo | Custom rules, multi-SKU automation |
 
-For BoxedUp scale (most members \$5K–\$30K/month): **Aura** or **BQool** strikes the right cost-to-feature balance.
+The native Amazon repricer is fine to start. Third-party repricers add custom rule logic (compete-with-FBA-only, max/min by SKU, time-of-day variations, etc.) — typically worth it past ~100 active SKUs.
 
 ## Common repricing mistakes
 

@@ -46,7 +46,7 @@ If you're just starting:
 ### Step 1: Separate bank account (Mercury)
 All business income → here. All business expenses → here. NEVER personal use.
 
-### Step 2: InventoryLab (or 2D Workflow + spreadsheet)
+### Step 2: InventoryLab
 Track per-SKU costs as you ship to FBA.
 
 ### Step 3: SellerBoard

@@ -151,6 +151,40 @@ Two related but separate things:
 
 Don't confuse them on your books. Sales tax should never appear in your "expense" column — it's not your money in the first place.
 
+## Per-retailer tax-exempt enrollment URLs
+
+Bookmark these. Set up each one once, save the program ID, use forever.
+
+| Retailer | Direct enrollment URL | Notes |
+|---|---|---|
+| **IRS — apply for EIN** | `irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online` | Free, 5 minutes, prerequisite for everything below |
+| **Amazon Business** | `tax-exemption.amazon.com/wizard/exemptionStates` | Online wizard; multi-state in one form |
+| **Walmart** | In-person at customer service desk (no online portal) | Receive a Walmart tax-exempt CARD — present at every checkout |
+| **Target** | `target.com/c/business` → Tax Exempt | Online application; program ID at checkout |
+| **Home Depot** | `taxexempt.extapps.homedepot.com` | Per-store registration; show Tax ID at register |
+| **Lowe's** | `lowesforpros.com/l/tax-exempt-management-system.html` | Pro account required |
+| **Best Buy** | Best Buy Business → Tax Exempt | Business account required |
+| **Costco / Sam's Club** | In-person at customer service | Each store separately |
+| **Office Depot Business** | `business.officedepot.com` → Tax Exempt | Easy online setup |
+| **Staples Business** | `staplesadvantage.com` → Tax Exempt | Easy online setup |
+| **B&H Photo** | `bhphoto.com/tax-exemption` | Online; processes during your next purchase |
+
+### The Walmart in-store workflow (specific)
+
+Walmart's tax-exempt program is the most-asked-about. The exact flow:
+
+1. Print your state-issued reseller certificate
+2. **Go to Walmart customer service** (not the regular checkout — they can't process this)
+3. Present:
+   - Your reseller certificate
+   - Government ID
+   - EIN documentation (sometimes asked)
+4. Customer service issues a **Walmart tax-exempt card** with your program ID
+5. Save the card. **Always present it at checkout** for tax-exempt purchases.
+6. The cashier rings the transaction tax-exempt.
+
+⚠️ **Don't ask the cashier to figure this out.** They can't. Customer service is the only path. If customer service is busy, come back later — don't try to work around it.
+
 ## The 30-minute first-week setup
 
 If you're new and want to get tax-compliant in one afternoon:
@@ -159,9 +193,10 @@ If you're new and want to get tax-compliant in one afternoon:
 2. ✅ Apply for state sales tax permit
 3. ✅ Receive reseller certificate
 4. ✅ Sign up for Amazon Business + tax-exempt status
-5. ✅ Sign up for Walmart Tax Exempt Program
-6. ✅ Sign up for Target tax-exempt
-7. ✅ Save the certificate as a PDF + photo on your phone for in-person use
+5. ✅ Sign up for Walmart tax-exempt (in-person)
+6. ✅ Sign up for Target tax-exempt (online)
+7. ✅ Add Home Depot + Lowe's tax-exempt programs (if relevant to your sourcing)
+8. ✅ Save the certificate as a PDF + photo on your phone for in-person use
 
 After this, your sourcing tax cost drops to zero and your annual compliance is a single state return.
 

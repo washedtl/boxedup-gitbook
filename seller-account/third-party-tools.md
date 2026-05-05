@@ -1,4 +1,4 @@
-# Inventory Lab, 2D Workflow, SellerAmp setup
+# Inventory Lab, SellerAmp setup
 
 🟢 → 🟡 — The four tools that take you from "fumbling with Amazon's clunky default UI" to "shipping 50 SKUs/hour like a pro."
 
@@ -10,10 +10,10 @@ The minimum essential reseller toolset:
 |---|---|---|
 | **Keepa** (paid) | \$19/mo | Chart history, KPF, API access |
 | **SellerAmp SAS** | \$22/mo | Real-time scanning + deal analysis |
-| **Inventory Lab** OR **2D Workflow** | \$69/mo IL, \$15/mo 2D | Listing creation + shipment building |
+| **InventoryLab** | \$69/mo | Listing creation + shipment building + COGS |
 | **SellerBoard** | \$15–\$50/mo | P&L + reimbursement automation |
 
-Total: ~\$75–\$160/month.
+Total: ~\$125–\$160/month.
 
 For most members past the first 3 months, this combo pays for itself in a single week of saved time + reimbursements found.
 
@@ -107,18 +107,7 @@ Compare native Amazon Seller Central vs IL for shipping 50 SKUs:
 
 After ~5 shipments, IL pays for itself in time saved every month.
 
-## 2D Workflow — the alternative
-
-2D Workflow is a newer entrant, often preferred by high-volume sellers.
-
-### Why some prefer 2D Workflow
-
-- ✅ **Cheaper** (\$15/mo vs \$69/mo)
-- ✅ **2D-barcode-based shipping** — Amazon's preferred mode, faster receive times
-- ✅ **Simpler interface** — fewer features, less learning curve
-- ❌ **Less bookkeeping** than IL — you'll need SellerBoard for P&L
-
-### What is "2D barcode" shipping?
+## 2D barcode shipping (use it)
 
 In 2024, Amazon rolled out 2D barcodes (QR codes) on FBA shipments. The 2D barcode encodes box content directly — Amazon's warehouse scanners read it instantly, eliminating manual counting.
 
@@ -127,19 +116,7 @@ Benefits:
 - 📋 **Fewer "mis-counted" disputes** — Amazon trusts the 2D content
 - 🏷️ **Single label per box** combines shipment + content info
 
-To use 2D barcodes, your shipping software must generate them correctly. **Both Inventory Lab and 2D Workflow support it.** Native Seller Central also supports it but the workflow is clunkier.
-
-If you're shipping >5 boxes/week, **enable 2D barcodes via your shipping tool** — pure speed win.
-
-### 2D Workflow setup
-
-1. **Sign up** at 2dworkflow.com
-2. **Connect SP-API** + Keepa
-3. **Configure printer** (DYMO or Zebra)
-4. **Set cost defaults**
-5. **Run a test shipment**
-
-Same playbook as IL, just simpler.
+InventoryLab supports 2D barcodes. **Enable it as the default in your tool's settings** — pure speed win.
 
 ## SellerBoard setup
 
@@ -156,7 +133,7 @@ Quick setup checklist:
 
 ## Browser extensions stack
 
-Beyond SAS, three Chrome extensions are common:
+Beyond SAS, the Keepa Browser Extension is the other essential:
 
 ### Keepa Browser Extension
 Free with Keepa subscription. Adds the Keepa chart inline on every Amazon product page.
@@ -164,12 +141,6 @@ Free with Keepa subscription. Adds the Keepa chart inline on every Amazon produc
 - Install from Chrome Web Store: "Keepa - Amazon Price Tracker"
 - Sign in with your Keepa account
 - Chart appears below the buy box on every Amazon listing
-
-### Camelizer
-Backup price-tracker. Sometimes catches things Keepa misses, especially for short-term Amazon-direct prices.
-
-### Honey / Capital One Shopping
-For sourcing — find coupon codes when buying inventory online. Free.
 
 ## Mobile setup
 
@@ -194,31 +165,22 @@ A starter toolkit:
 |---|---|
 | Keepa (paid) | \$228 |
 | SellerAmp SAS | \$264 |
-| 2D Workflow | \$180 |
+| InventoryLab | \$828 |
 | SellerBoard | \$300 (mid-tier) |
-| **Total** | **\$972/year** |
+| **Total** | **\$1,620/year** |
 
 If you're netting >\$10K/month, this is <1% of revenue. Cheaper version (Keepa free + SAS only): \$264/year for the bare minimum.
 
-## What NOT to buy initially
-
-Save your money on:
-
-❌ **Aura / RepricerExpress** — only useful past \$25K/month
-❌ **Helium 10 / JungleScout** — designed for PL, overkill for arb
-❌ **AMZ Tracker / similar** — feature-overlap with what you already have
-❌ **Paid courses ("\$2000 Amazon FBA Mastery!")** — this guide replaces 90% of them; the rest is in your Discord
-
 ## When to upgrade
 
-Triggers to add new tools:
+Triggers to add specific capabilities (within the same tool stack):
 
-| Trigger | Add |
+| Trigger | Action |
 |---|---|
-| Shipping >100 units/week | Aura repricer |
-| Sourcing >\$5K/month from one supplier | Wholesale-specific tools (Forecastly, Restock Pro) |
-| Operating with VAs | Time-tracking + multi-user SAS |
-| Past \$25K/month revenue | Bookskeep / dedicated CPA |
+| Shipping >100 units/week | Squeeze more out of IL — templates, batch shipping |
+| Sourcing >\$5K/month from one supplier | Start tracking per-supplier P&L in SellerBoard |
+| Operating with VAs | Multi-user SAS subscription |
+| Past \$25K/month revenue | Consider e-commerce-focused CPA |
 | Past \$50K/month | 3PL prep services replacing IL prep |
 
 ***

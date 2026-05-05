@@ -154,7 +154,7 @@ If your first POA is denied:
 - Sometimes a different rep approves what the first denied
 
 ### Round 2: Hire a POA specialist
-- Companies like **Sellerise**, **Riverbend Consulting**, **Amazon Sellers Lawyer** specialize in this
+- Specialty firms like **Riverbend Consulting** and **Amazon Sellers Lawyer** handle these
 - Costs: \$200–\$1,500+ depending on case complexity
 - Worth it for accounts with significant inventory at FBA or revenue at risk
 

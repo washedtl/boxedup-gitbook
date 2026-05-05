@@ -203,7 +203,7 @@ Brand or Amazon suppresses the listing entirely. Your inventory is "stranded" at
 
 Beyond manual math:
 
-### Helium 10 / Jungle Scout
+### Third-party PL-research tools
 - "Sales estimator" tools that estimate monthly sales from BSR + category
 - Less accurate post-2024 due to algorithm shifts
 - Good as sanity-check vs your manual math

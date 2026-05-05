@@ -49,10 +49,7 @@ If those don't match: keep arbitraging.
 
 The single hardest skill in PL. Bad product research = doomed brand from day 1.
 
-Tools:
-- **Helium 10** — keyword + product research
-- **Jungle Scout** — same
-- **Cerebro / Black Box** — keyword tools
+Tools you'll need: a paid PL-research subscription (multiple options exist). They give you keyword search volume + competitor analysis + sales estimation. Pick one and learn it deeply.
 
 What to look for:
 - **Search volume** — 5K+ monthly searches on the main keyword
@@ -198,7 +195,7 @@ Beginners budget \$5K and find they need \$25K. They run out before launch and l
 
 PPC (Pay-Per-Click ads on Amazon) is its own discipline. Beginners spend wildly without understanding ACOS, conversion rates, keyword bidding.
 
-**Fix:** read Helium 10's PPC course or hire a PPC manager (~\$500–\$2,000/month) for the first 3 months.
+**Fix:** invest in a PPC course or hire a PPC manager (~\$500–\$2,000/month) for the first 3 months.
 
 ### Reason 4: Slow review accumulation
 

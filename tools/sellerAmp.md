@@ -246,19 +246,6 @@ For replens, scan the source store's UPC weekly:
 
 If any drift: investigate. If math still works: reorder.
 
-## SAS alternatives
-
-For comparison:
-
-| Tool | Pros | Cons |
-|---|---|---|
-| **BuyBotPro** | Auto-evaluates "buy/skip" | Less manual control |
-| **ScanPower** | Older, established | Less polished UI |
-| **AMZ Analyzer** | Free | Fewer features |
-| **Native Amazon Seller App** | Free | Only basic data |
-
-SAS strikes the best balance for most BoxedUp members. Stick with it unless you have a specific reason to switch.
-
 ***
 
 Next: [InventoryLab for accounting & prep →](inventory-lab.md)

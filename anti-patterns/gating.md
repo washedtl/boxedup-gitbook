@@ -45,6 +45,21 @@ You'll see:
 
 This works without scanning hardware but is slower.
 
+## The "buy 10, ungate, return" workflow
+
+Before getting into application paths — there's a canonical method most resellers use that bypasses traditional wholesale paperwork:
+
+1. **Buy 10 units** of the target brand from an authorized retailer
+2. **Submit the retail invoice** to Amazon as ungating documentation
+3. **Get approved**
+4. **Return the inventory** to the retailer for refund
+
+Net cost: ~\$15-\$60 per ungate (shipping + restocking fees if any).
+
+This is the de-facto standard for ungating common brands and categories. Detailed per-retailer recipes (B&H Photo, Zoro, Target, iHerb, Best Buy, Walmart Business, etc.): **[Ungating playbooks (by retailer) →](ungating-playbooks.md)**.
+
+Most paid "ungating services" are doing exactly this loop and charging \$200-\$500 markup for the convenience.
+
 ## Applying for ungating
 
 When a listing says "Apply for approval," you can submit an application. The process varies:
@@ -53,16 +68,26 @@ When a listing says "Apply for approval," you can submit an application. The pro
 Some brands/categories will auto-approve based on your account history. Click "Apply" → instant approval. Lucky.
 
 ### Invoice-required ungating
-Most gates require a **wholesale invoice** from an authorized distributor. Specifications:
-- Issued in the last 180 days
-- Shows your business name + address
-- Shows the brand name + product purchased
-- Shows quantity (typically 10+ units)
-- From a real distributor (not a retail receipt)
+Most gates require an invoice with these specs:
 
-⚠️ **Retail receipts almost never work for ungating.** You can't take a Walmart receipt for "10 LEGO sets" and use it to ungate LEGO. The brand will reject it.
+**Invoice-match checklist (non-negotiable):**
+- ✅ **Quantity ≥ 10 units** of the brand-target item
+- ✅ **Your business name** matching your seller-account profile EXACTLY
+- ✅ **Your address** matching your seller-account address EXACTLY
+- ✅ **Your email** matching your seller-account email
+- ✅ **Your phone** matching your seller-account phone
+- ✅ **Issued within 180 days** of the application
+- ✅ **From an authorized retailer or distributor** (NOT eBay, Amazon, marketplace sellers)
 
-To get a real invoice:
+Even one-character mismatches trigger automatic rejection. Update your retailer profile to match seller-account profile before placing the order.
+
+**For mainstream consumer brands**, the buy-10-ungate-return loop using authorized retailers (Target, B&H Photo, Zoro, iHerb, Best Buy Business, Walmart Business) works most of the time. See [ungating playbooks](ungating-playbooks.md).
+
+**For Tier-1 IP-aggressive brands** (Disney, Nintendo, premium luxury), retail invoices won't suffice. You need a **Letter of Authorization (LOA)** from the brand directly — usually impossible without an established wholesale relationship. Walk from these brands until established.
+
+⚠️ **Walmart consumer receipts almost never work** for big-name brand ungating. You need Walmart **Business** account invoices, not regular receipts. Same logic applies to Costco — the **Costco Business** invoices work; consumer ones don't.
+
+To get a real wholesale invoice (the alternative path):
 - Sign up as a wholesale customer with a brand or distributor
 - Place a small order (10+ units of the cheapest item)
 - Use the invoice for Amazon ungating

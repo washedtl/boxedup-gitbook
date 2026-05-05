@@ -14,18 +14,15 @@ We covered the high-level lifecycle in [Shipment lifecycle](shipment-lifecycle.m
 
 ## Tools to build with
 
-Three options, ranked:
+Two options, ranked:
 
-### Option 1: Inventory Lab / 2D Workflow (recommended)
-Both handle box content, FNSKU labels, and dimensions in one screen. ~5 minutes per shipment for 50 SKUs.
+### Option 1: Inventory Lab (recommended)
+Handles box content, FNSKU labels, and dimensions in one screen. ~5 minutes per shipment for 50 SKUs.
 
 ### Option 2: Native Seller Central
 Slow, multi-step, error-prone, but free. ~25 minutes per shipment for 50 SKUs.
 
-### Option 3: Other tools (Stratify, ScanPower)
-Niche; only worth considering if you have specific workflow needs.
-
-For this page, examples assume you're using Inventory Lab or 2D Workflow.
+For this page, examples assume you're using Inventory Lab.
 
 ## Building the plan: step by step
 
@@ -111,7 +108,7 @@ You upload a spreadsheet listing every SKU + quantity per box. Faster for >10 SK
 
 The 2D barcode encodes the box contents directly. Your tool generates it. Amazon scans it on receipt. **No web form, no CSV.**
 
-Inventory Lab and 2D Workflow both support 2D barcodes. **Enable it as the default in your tool's settings** — saves time + faster receive at FBA.
+Inventory Lab supports 2D barcodes. **Enable it as the default in your tool's settings** — saves time + faster receive at FBA.
 
 ## Common shipping plan mistakes
 

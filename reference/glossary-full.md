@@ -32,8 +32,6 @@
 
 **Brand Registry** — Amazon program for trademark holders. Provides listing control + IP enforcement tools.
 
-**BBP / BuyBotPro** — Sourcing scanner with auto-evaluate features.
-
 **Bulky** — FBA size tier for items beyond standard but not extra-large.
 
 **Bundle** — Multi-component product sold as one unit. Has specific FBA listing rules.
@@ -267,8 +265,6 @@
 **Seasonal** — Product with seasonal demand pattern.
 
 **Seller Central** — Amazon's seller dashboard.
-
-**Sellerise** — Multi-account analytics + reinstatement help service.
 
 **SFP** — Seller Fulfilled Prime. Premium FBM tier with Prime SLA.
 

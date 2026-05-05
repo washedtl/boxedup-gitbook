@@ -54,6 +54,54 @@ $16.39  Pre-COGS net
 
 Always model fees with the **FBA Revenue Calculator** (free, in Seller Central) — your gut will be wrong.
 
+## FBM tactical levers (if you do choose FBM)
+
+Two specific tactics that move the needle for FBM operations:
+
+### Lever 1: USPS PostalPro service-standards heat map
+
+Amazon defaults to flat 2-4 day handling-time estimates. This is wrong for FBM — actual transit varies wildly by destination.
+
+The fix: use **USPS PostalPro service-standards heat map** (`postalpro.usps.com/ppro-tools/service-standards-maps`).
+
+Workflow:
+1. Look up your warehouse zip's **first 3 digits**
+2. Pull the heat map showing transit time to every other zip-3 in the country
+3. In Seller Central → Shipping Settings, configure **per-state handling time**:
+   - Nearby states: 2-4 days promised
+   - Cross-country: 5-8 days promised
+
+Result: more accurate delivery promises = fewer late-shipment defects = better LSR + Buy Box weight. **Saves money** by avoiding upgrades to faster shipping classes for far destinations.
+
+### Lever 2: Handling time = 0
+
+Set your shipping handling time to **0 days** (Settings → Shipping → Default Handling Time → 0).
+
+What this does: customer sees "Get it by [tomorrow]" instead of "Get it by [3 days from now]" because Amazon's promised-delivery calc starts from order placement, not ship date.
+
+Trade-off:
+- ✅ Earlier delivery date shown to customer = higher conversion + better Buy Box weight vs FBA competitors
+- ❌ You MUST actually ship same-day or you'll rack up Late Shipment Rate defects
+
+Run this only if you can genuinely ship same-day. For most BoxedUp members shipping FBM as overflow: works mid-week (Mon-Thu); switch to 1-day handling for weekend orders.
+
+### Lever 3: Buy Box eligibility audit
+
+Many FBM sellers don't realize they're flagged Buy-Box-ineligible on specific ASINs.
+
+To check:
+1. Inventory → Manage Inventory
+2. Click "Preferences" (top right)
+3. **Tick "Buy Box Eligible" column**
+4. Save
+
+Now your inventory list shows Buy Box eligibility per-SKU. For ineligible SKUs:
+1. Open Help → Contact us → "I want to sell on Amazon" → "Listing — Other"
+2. Request review of Buy Box eligibility for the specific ASIN
+3. Provide your performance metrics + history
+
+This often unlocks Buy Box for SKUs you've been "selling but invisible" on.
+
 ## When FBM makes sense
 
 FBM is the right call in these specific cases:

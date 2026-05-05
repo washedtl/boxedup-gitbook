@@ -164,6 +164,6 @@ If you want Brand Registry benefits, register your own brand. Period.
 
 ***
 
-Next: [Inventory Lab, 2D Workflow, SellerAmp setup →](third-party-tools.md)
+Next: [Inventory Lab + SellerAmp setup →](third-party-tools.md)
 
 *Last updated: 2026-05-05*

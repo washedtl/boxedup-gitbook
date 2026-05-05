@@ -166,6 +166,51 @@ Across 5–10 restock events, you can accumulate substantial inventory on a high
 
 Don't. It's against Amazon's TOS for resellers and gets accounts flagged. Use standard shipping with box packaging.
 
+## Free / DIY monitoring options
+
+Before paying for monitor services, two free tactics worth knowing:
+
+### Restock-tracker websites (Tier-0 sourcing discovery)
+
+Public restock-tracker sites surface OOS items + restock alerts at scale. Free to use, useful as a discovery substrate before Keepa-validating:
+
+- **NowInStock** (`nowinstock.net`) — broad retailer coverage, organized by product category
+- **Trackalacker** — alerts on hot products
+- **Zoolert** — restocks across major retailers
+- **RestockTracker.io** — multi-retailer
+- **StockInformer** — UK-leaning but covers US too
+- **HotStock** — gaming/electronics-focused
+
+Workflow:
+1. Browse a category that's currently in shortage
+2. Note SKUs that are showing repeated OOS-then-restock
+3. Pull up the Amazon listing for each
+4. Run the [KPF restock filter logic](../tools/keepa-product-finder.md) on the candidate
+5. If it survives Keepa validation, add it to your Tempo / Blaze monitor list
+
+This costs you nothing and surfaces leads you wouldn't get from a paid monitor — because nobody is monitoring these specific SKUs yet.
+
+### Distill.io webhook recipe (for one-off retailers)
+
+When the SKU you want to monitor isn't on a major retailer's plugin path (Tempo doesn't cover every retailer), you can DIY-monitor it via the **Distill.io** Chrome extension:
+
+1. Install the Distill Chrome extension (`distill.io`)
+2. Navigate to the product page on the retailer's site
+3. Click the Distill icon → "Select an element to monitor"
+4. Highlight the "Sold Out" / "Out of Stock" text on the page
+5. Set check interval (e.g., 5 minutes)
+6. Configure **Discord webhook URL** as the notification target
+7. Save
+
+When the page text changes from "Sold Out" → "Add to Cart" / "In Stock", Distill fires a webhook to your Discord channel. You react in seconds, just like with Tempo.
+
+Limits:
+- Distill's free tier limits how many monitors you can run simultaneously (~25)
+- Doesn't include browser-session-based scrapes (so no logged-in retailers)
+- Long-tail solution, not a primary tool
+
+For BoxedUp scale: Tempo + Blaze cover the high-volume retailers; Distill fills in the gaps.
+
 ## Beyond Tempo and Blaze
 
 If you're scaling and want redundancy beyond what the Discord ships, the major commercial monitor services are:

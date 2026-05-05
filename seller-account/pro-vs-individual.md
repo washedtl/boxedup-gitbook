@@ -29,7 +29,7 @@ The \$39.99/month "Pro" plan pays for itself at **40 sales/month** — and you l
 Beginners look at the \$39.99/mo and think "I'll save money until I'm selling regularly." Three problems with that:
 
 1. **No Buy Box** = your listings exist but nobody sees them. You'll get one sale a week.
-2. **No API access** = SellerAmp, InventoryLab, BoxedUp CC, BuyBotPro all stop working.
+2. **No API access** = SellerAmp, InventoryLab, and other reseller tools stop working.
 3. **The \$0.99 per sale crosses over fast.** 40 sales = \$39.60 in per-item fees. You're already paying for Pro and getting none of the benefits.
 
 > **The math:** if you do even 2 flips a week (≈8/mo), upgrading to Pro saves you \$0.99 × 8 = \$7.92 in per-item fees against \$32 of net cost (\$39.99 − \$7.92), and unlocks Buy Box + ungating + API. It's not close.

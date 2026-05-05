@@ -208,7 +208,7 @@ Successful wholesale sourcers expect to apply to 20+ brands to find 3–5 produc
 ## Wholesale tools
 
 Past 3 wholesale relationships, you'll need:
-- **Forecastly** or **Restock Pro** — automated reorder prediction
+- Automated reorder-prediction (built into many bookkeeping/inventory tools)
 - **Bookskeep** or e-commerce CPA — multi-supplier accounting
 - **Spreadsheet of brand contacts + status** — applications pending, approved, rejected, terminated
 - **Proper inventory management** — track per-supplier P&L

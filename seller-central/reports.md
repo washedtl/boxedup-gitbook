@@ -182,11 +182,6 @@ For deeper analysis than native Amazon UI:
 - Same data + listing/shipping integration
 - ~\$69/month
 
-### Scout / Helium 10 / Jungle Scout
-- Sales-tracking on competitors (storefront stalking)
-- Useful for sourcing intelligence
-- ~\$50–\$200/month
-
 ### Custom dashboards
 - Some sellers export Amazon reports → Google Sheets / Power BI
 - Free (your time)

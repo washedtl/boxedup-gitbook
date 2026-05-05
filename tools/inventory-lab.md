@@ -91,7 +91,7 @@ For each SKU with quantity > 0:
 - Select print quantity
 - IL sends labels directly to your thermal printer
 
-If using 2D Workflow's 2D-barcode mode: instead of FNSKU per unit, print a single 2D barcode label per box that encodes all contents.
+For Amazon's newer 2D-barcode shipping mode (faster receive at FBA): instead of FNSKU per unit, you print a single 2D barcode label per box that encodes all contents. IL supports this — enable it in your shipping settings.
 
 ### Step 3: Build shipment
 
@@ -196,9 +196,6 @@ Some scenarios where IL isn't necessary:
 
 ### You ship <10 SKUs/month
 The native Seller Central interface is slow but adequate. IL's time savings don't justify \$69/mo at low volume.
-
-### You use 2D Workflow instead
-2D Workflow (\$15/mo) covers shipment building + FNSKU labels for less. You'd still need separate P&L tools (SellerBoard).
 
 ### You have a 3PL doing everything
 If your prep service builds shipments, lists products, and does FNSKU labels for you, IL is redundant. Skip and just use SellerBoard for P&L.

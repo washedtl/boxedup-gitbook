@@ -138,6 +138,83 @@ For high-stakes counterfeit prevention:
 
 For high-counterfeit categories: invest in tools. \$50 in inspection equipment saves \$5,000 in inventory loss.
 
+## Counterfeit complaint response template
+
+If you receive a counterfeit complaint despite sourcing legitimately, this template is your starting point. **Note:** counterfeit responses are different from suspension POAs — they target the LISTING reinstatement, not the account, and lean heavily on Transparency program codes if applicable.
+
+```
+Subject: Reinstatement of ASIN [ASIN] — counterfeit claim response
+
+Dear Amazon Performance Team,
+
+We received a notification from Amazon claiming you received a counterfeit
+complaint related to the authenticity of ASIN: [ASIN]. All products under
+ASIN: [ASIN] that were listed and sold under our storefront were sourced
+from authorized channels and contained authentic packaging consistent with
+the brand's standard production.
+
+[Optional Transparency block — include if the brand uses Amazon Transparency:]
+The product is enrolled in Amazon's Transparency program. All units shipped
+under our offer carried valid Transparency codes (format: X00XXXXXXXXX) which
+were scanned and verified at the time of fulfillment. We have records of these
+codes available on request.
+
+Receipt from supplier:
+Attached is the invoice from our authorized supplier showing:
+- Invoice number: [number]
+- Date: [date]
+- Quantity: [quantity] units of [product/brand]
+- Supplier name: [supplier name]
+- Supplier address: [address]
+- Supplier phone: [phone]
+- Supplier website: [website if applicable]
+
+Preventative measures we have implemented:
+1. Sourcing only from authorized distributors and retail channels documented
+   in our internal sourcing policy
+2. Inspecting each unit prior to shipment to FBA, including verification of
+   manufacturer batch codes and packaging integrity
+3. Photographing every unit shipped to FBA with brand-marker visibility
+4. Maintaining 18+ months of receipt and invoice records for every SKU
+5. Excluding inventory from any source where we cannot verify the supply chain
+   back to the brand owner or their authorized distributor
+6. Implementing a quarterly audit of our sourcing channels against current
+   brand-protection policies
+7. Immediate suspension of any SKU receiving an authenticity complaint pending
+   internal review
+
+Reinstatement request:
+We respectfully request that the listing for ASIN: [ASIN] be reinstated under
+our storefront. We have voluntarily suspended further inbound shipments of
+this ASIN pending Amazon's review and are committed to maintaining the
+authenticity standards described above going forward.
+
+Attached:
+- Invoice from [supplier name] dated [date]
+- Photograph of authentic unit packaging
+- [Transparency code records, if applicable]
+- [Any other relevant evidence]
+
+Thank you for your time and consideration.
+
+Sincerely,
+[Your name]
+[Business name]
+[Seller account email]
+```
+
+### What makes counterfeit responses different from POAs
+
+| | Suspension POA | Counterfeit response |
+|---|---|---|
+| Scope | Account-level reinstatement | Listing/ASIN reinstatement |
+| Tone | Acknowledging fault + corrective action | Defending authenticity + sourcing legitimacy |
+| Key evidence | Plan-of-action narrative | Invoices + photos + Transparency codes |
+| Critical addition | "Preventative measures" plan | Transparency program reference (if brand enrolled) |
+| Outcome window | 7-30 days for account | 24-72 hours for ASIN |
+
+For account-level suspensions (separate issue), see [Account suspension playbook](suspension.md).
+
 ## Recovery if you sourced counterfeits
 
 You bought 50 units, then realized they're fake.

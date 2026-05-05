@@ -292,11 +292,6 @@ For high-volume sellers:
 - No automation beyond auto-response
 - Adequate for <50 messages/week
 
-### FeedbackWhiz / SellerLabs
-- Email automation, pre-built templates
-- ~\$50–\$200/month
-- Worth it past 100 messages/week
-
 ### Custom support tools / VAs
 - Above 200 messages/week, hire a VA to respond
 - Train them with your templates

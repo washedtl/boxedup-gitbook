@@ -98,20 +98,15 @@ Two paths:
 
 Time per claim: 5–15 minutes. Worth it if you're filing fewer than ~30/month.
 
-### Reimbursement automation tools (essential at scale)
+### SellerBoard reimbursement automation (essential at scale)
 
-Above ~\$5K/month revenue, manual case-filing isn't tractable. Use a tool:
+Above ~\$5K/month revenue, manual case-filing isn't tractable. Use **SellerBoard** — see [SellerBoard page](../tools/sellerboard.md).
 
-- **SellerBoard** — best all-around, ~\$15–\$50/mo, includes reimbursement automation. See [SellerBoard page](../tools/sellerboard.md).
-- **Refunds Manager** — specialized in reimbursements, ~\$50–\$200/mo
-- **Helium 10 Refund Genie** — bundled with Helium 10
-- **GETIDA** — performance-based pricing (you only pay if they recover), often best for low-volume sellers
-
-The tools work by:
-1. Pulling your full Amazon report data via API
-2. Identifying every potential reimbursement case
-3. Auto-filing claims (or queueing them for your one-click approval)
-4. Tracking which got paid and which got denied
+How it works:
+1. Pulls your full Amazon report data via API
+2. Identifies every potential reimbursement case
+3. Auto-files claims (or queues them for your one-click approval)
+4. Tracks which got paid and which got denied
 
 Time saved: 90%+. Recovery rate: typically 1.5–3× higher than manual filing.
 
@@ -120,8 +115,8 @@ Time saved: 90%+. Recovery rate: typically 1.5–3× higher than manual filing.
 ⚠️ **Critical**: Amazon's policy limits reimbursement claims to **18 months** from the event. Older issues are lost forever.
 
 If you've been selling for 6+ months without filing claims:
-- Sign up for SellerBoard or GETIDA today
-- They'll backfile every eligible historical case
+- Sign up for SellerBoard today
+- It'll backfile every eligible historical case
 - Expect a 4-figure recovery in the first 30 days
 
 This is found money. Don't skip it.

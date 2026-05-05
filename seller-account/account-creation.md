@@ -176,7 +176,7 @@ A handful of defaults that hurt resellers:
 
 ### 3. Repricing settings
 - Don't enable Amazon's automated repricer initially — it's aggressive and tanks Buy Box price
-- Set manual prices to start; revisit at \$5K/month with a third-party repricer (Aura, RepricerExpress)
+- Set manual prices to start; revisit at \$5K/month if you want automated repricing
 
 ### 4. Currency display
 - If selling on Amazon US: USD

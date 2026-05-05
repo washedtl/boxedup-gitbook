@@ -11,7 +11,7 @@
 * [Account creation walkthrough](seller-account/account-creation.md)
 * [Identity verification & video call](seller-account/verification.md)
 * [Brand Registry (when it matters)](seller-account/brand-registry.md)
-* [Inventory Lab, 2D Workflow, SellerAmp setup](seller-account/third-party-tools.md)
+* [Inventory Lab + SellerAmp setup](seller-account/third-party-tools.md)
 * [Surviving your first 90 days](seller-account/first-90-days.md)
 
 ## Part 2 — FBA fundamentals
@@ -76,6 +76,7 @@
 
 * [IP complaints and how to avoid them](anti-patterns/ip-complaints.md)
 * [Gated brands, gated categories](anti-patterns/gating.md)
+* [Ungating playbooks (by retailer)](anti-patterns/ungating-playbooks.md)
 * [Hijackers and how to fight back](anti-patterns/hijackers.md)
 * [Account suspension playbook](anti-patterns/suspension.md)
 * [Counterfeit traps when sourcing](anti-patterns/counterfeits.md)
@@ -87,5 +88,4 @@
 
 * [Fee reference (FBA, referral, storage)](reference/fees.md)
 * [Prep matrix (by category)](reference/prep-matrix.md)
-* [Restricted brands master list](reference/restricted-brands.md)
 * [Glossary (full)](reference/glossary-full.md)
