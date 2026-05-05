@@ -29,7 +29,6 @@ Three tracks, one guide:
 - **Deal analysis** — How to read a chart, estimate velocity, and walk away from bait deals.
 - **Operations** — Reimbursements, account health, customer messages, the boring stuff that protects your money.
 - **Business** — LLC, EIN, sales tax, reseller certs, bookkeeping. State-by-state where it matters.
-- **The Discord** — How to use the channels, roles, bots, and deal feeds without being annoying.
 - **Anti-patterns** — IP complaints, gated brands, hijackers, suspensions. How to survive.
 
 ## How to read this

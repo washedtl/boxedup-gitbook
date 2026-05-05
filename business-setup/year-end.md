@@ -278,6 +278,6 @@ If you overpaid quarterly + have other deductions:
 
 ***
 
-This concludes Part 7 — Business setup. Next: [Part 8 — The BoxedUp Discord →](../discord/channels.md)
+This concludes Part 7 — Business setup. Next: [Part 8 — Anti-patterns & survival →](../anti-patterns/ip-complaints.md)
 
 *Last updated: 2026-05-05*

@@ -72,15 +72,7 @@
 * [Bookkeeping & inventory accounting (FIFO)](business-setup/bookkeeping.md)
 * [Year-end & 1099-K](business-setup/year-end.md)
 
-## Part 8 — The BoxedUp Discord
-
-* [Channel map](discord/channels.md)
-* [Roles, tiers, and how to level up](discord/roles.md)
-* [Using deal-feed channels effectively](discord/deal-feeds.md)
-* [Bots & commands cheat sheet](discord/bots.md)
-* [Discord etiquette (don't be that guy)](discord/etiquette.md)
-
-## Part 9 — Anti-patterns & survival
+## Part 8 — Anti-patterns & survival
 
 * [IP complaints and how to avoid them](anti-patterns/ip-complaints.md)
 * [Gated brands, gated categories](anti-patterns/gating.md)

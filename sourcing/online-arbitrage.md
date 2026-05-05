@@ -90,7 +90,7 @@ Run weekly (see [KPF deep dive](../tools/keepa-product-finder.md)) — outputs 1
 For A2A specifically — see [A2A page](a2a.md). Real-time mispricings.
 
 **Source C: Discord deal-feed pings**
-Members surface OA leads in real time. Act fast (see [deal feeds](../discord/deal-feeds.md)).
+Members surface OA leads in real time. Act fast.
 
 ### Step 2: Validate
 

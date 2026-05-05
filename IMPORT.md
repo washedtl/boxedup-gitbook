@@ -19,7 +19,6 @@ c:/tmp/boxedup-gitbook/
 ├── deal-analysis/             # Profit equation + 5 stubs
 ├── seller-central/            # 6 stubs
 ├── business-setup/            # 6 stubs
-├── discord/                   # 5 stubs
 └── anti-patterns/             # IP complaints + 5 stubs
 ```
 
@@ -41,7 +40,7 @@ c:/tmp/boxedup-gitbook/
 - anti-patterns/ip-complaints.md
 
 **Pages referenced in SUMMARY.md but not yet written** (GitBook will create empty pages or 404 for these — fill in over time):
-- All sub-pages under fba/, seller-central/, business-setup/, discord/, anti-patterns/* (except IP), reference/, and the remaining sourcing/*, tools/*, deal-analysis/*, seller-account/* slugs.
+- All sub-pages under fba/, seller-central/, business-setup/, anti-patterns/* (except IP), reference/, and the remaining sourcing/*, tools/*, deal-analysis/*, seller-account/* slugs.
 
 ## Three ways to import
 
