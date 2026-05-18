@@ -10,7 +10,6 @@
 * [Pro vs Individual: which plan](seller-account/pro-vs-individual.md)
 * [Account creation walkthrough](seller-account/account-creation.md)
 * [Identity verification & video call](seller-account/verification.md)
-* [Brand Registry (when it matters)](seller-account/brand-registry.md)
 * [Inventory Lab + SellerAmp setup](seller-account/third-party-tools.md)
 * [Surviving your first 90 days](seller-account/first-90-days.md)
 
@@ -81,8 +80,6 @@
 * [Account suspension playbook](anti-patterns/suspension.md)
 * [Counterfeit traps when sourcing](anti-patterns/counterfeits.md)
 * [The "too good to be true" checklist](anti-patterns/too-good-to-be-true.md)
-
-***
 
 ## Reference
 
